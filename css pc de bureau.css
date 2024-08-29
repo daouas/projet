@@ -1,0 +1,27 @@
+.image-container {
+    text-align: center; /* Centers the image and text */
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.image-container img {
+    display: block;
+    margin: 0 auto; /* Centers the image if not using text-align */
+}
+
+.image-container p {
+    margin-top: 10px; /* Adjusts the spacing between the image and the text */
+    font-size: 16px;  /* Adjust the text size as needed */
+    color: #333;      /* Change the color of the text */}
+
+h1{ font-size: 20px;
+font-weight: 80;}
+h2{font-size: 30px;
+font-weight: 80;
+color: red;}
+.yy {display: flex
+    ;
+justify-content: center;
+align-items: center;
+justify-content: space-between;
+}

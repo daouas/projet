@@ -1,0 +1,88 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-right: 110px;
+    border: 100px;
+    border-color: black;
+
+}
+ul li a{
+    text-decoration: none;
+    margin: 0px 30px;
+}
+#oo{
+    height: 120px;
+    width: 200px;
+}
+a{font-weight: 200
+    ;
+color: black;
+font-size: medium;}
+.search-container {
+    margin: 70px;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 110px;
+}
+
+#listeElements {
+    list-style-type: none;
+    padding: 0;
+}
+
+#listeElements li {
+    padding: 8px;
+    margin-bottom: 4px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+#ee{display: flex
+    ;
+align-items: center
+;
+justify-content: center;}
+#eeee{width: 30px; height: 30px;}
+
+
+
+.navbar{border: #ccc;
+border-radius: 1px;}
+
+
+
+#searchButton {
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;}
+    body {
+        background-color: white;
+        color: black;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    
+    .container {
+        text-align: center;
+        padding: 50px;
+    }
+    
+    /* Dark mode styles */
+    body.dark-mode {
+        background-color: black;
+        color: white;
+    }
